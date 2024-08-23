@@ -8,11 +8,11 @@ Utilizando la API de [Spoonacular](https://spoonacular.com/food-api). Esta aplic
 
 ## **🚀 Demo en Vivo**
 
-Puedes ver la aplicación desplegada aquí: [LandingPage Gastronomia](https://gastronomia-landingpage.vercel.app)
+ Aplicación desplegada: [LandingPage Gastronomia](https://landing-gastronomia.vercel.app/)
 
 ## **📋 Características**
 
-- **Catálogo de Productos:** Explora un catálogo de recetas.
+- **Catálogo de Productos:** Explorar un catálogo de recetas.
 - **Interfaz Reactiva:** Una experiencia de usuario fluida y responsive.
 - **Integración con API:** Obtención de recetas aleatorias utilizando la API de Spoonacular.
 
@@ -54,4 +54,4 @@ Puedes ver la aplicación desplegada aquí: [LandingPage Gastronomia](https://ga
    bianchimaniciroe@gmail.com
 
 
-   **Gracias por tu tiempo**
+**Gracias por tu tiempo**
