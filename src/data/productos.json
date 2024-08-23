@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "description": "Deliciosa pizza con tomate, mozzarella y albahaca fresca.",
+    "price": "$12.00",
+    "image": "/images/pizza-margherita.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hamburguesa Clásica",
+    "description": "Jugosa hamburguesa con queso cheddar, lechuga y tomate.",
+    "price": "$10.00",
+    "image": "/images/hamburguesa-clasica.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ensalada César",
+    "description": "Fresca ensalada con pollo, crutones y aderezo César.",
+    "price": "$8.00",
+    "image": "/images/ensalada-cesar.jpg"
+  }
+]
