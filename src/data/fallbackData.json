@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "Pizza Margherita",
+    "description": "Deliciosa pizza con tomate, mozzarella y albahaca fresca.",
+    "price": "$12.00",
+    "image": "src/assets/imagenes/pizza-margherita.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Hamburguesa Clásica",
+    "description": "Jugosa hamburguesa con queso cheddar, lechuga y tomate.",
+    "price": "$10.00",
+    "image": "src/assets/imagenes/hamburguesa-clasica.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Ensalada César",
+    "description": "Fresca ensalada con pollo, crutones y aderezo César.",
+    "price": "$8.00",
+    "image": "src/assets/imagenes/ensalada-cesar.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Pasta Alfredo",
+    "description": "Cremosa pasta fettuccine con salsa Alfredo y queso parmesano.",
+    "price": "$14.00",
+    "image": "src/assets/imagenes/pasta-alfredo.jpg",
+    "vegan": true,
+    "vegetarian": true
+  },
+  {
+    "id": 5,
+    "title": "Tacos de Carne Asada",
+    "description": "Tacos suaves con carne asada, guacamole, y salsa fresca.",
+    "price": "$9.00",
+    "image": "src/assets/imagenes/tacos-carne-asada.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Sopa de Tomate",
+    "description": "Reconfortante sopa de tomate servida con crutones.",
+    "price": "$6.00",
+    "image": "src/assets/imagenes/sopa-tomate.jpg",
+    "vegetarian": true
+  },
+  {
+    "id": 7,
+    "name": "Sushi Roll de Salmón",
+    "description": "Sushi roll de salmón fresco con aguacate y pepino.",
+    "price": "$13.00",
+    "image": "src/assets/imagenes/sushi-salmon.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Filete Mignon",
+    "description": "Exquisito filete mignon a la parrilla con salsa de vino tinto.",
+    "price": "$25.00",
+    "image": "src/assets/imagenes/filete-mignon.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Paella de Mariscos",
+    "description": "Tradicional paella española con mariscos frescos.",
+    "price": "$20.00",
+    "image": "src/assets/imagenes/paella-mariscos.jpg"
+  }
+]
+

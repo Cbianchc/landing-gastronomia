@@ -44,7 +44,7 @@ const WelcomeSection = () => {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Oscurece la imagen de fondo
+            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
             zIndex: 1,
           },
         }}
@@ -55,7 +55,7 @@ const WelcomeSection = () => {
             component="h1" 
             sx={{ 
               fontWeight: 'bold',
-              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Sombra al texto
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' 
             }}
           >
             ¡Bienvenidos a Mi Restaurante!
@@ -65,10 +65,10 @@ const WelcomeSection = () => {
             component="p" 
             sx={{ 
               marginTop: '20px',
-              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Sombra al texto
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' 
             }}
           >
-            Descubre nuestros deliciosos platos preparados con amor y pasión.
+            Descubre nuestros deliciosos platos preparados con React y MaterialUI. 😉
           </Typography>
           <ScrollLink to="catalogo" smooth duration={800}>
             <Button
