@@ -49,7 +49,17 @@ const Navbar = () => {
         <CloseIcon />
       </IconButton>
       <List>
-        <ListItem button component={Link} to="/">
+      <ListItem
+          button
+          component={Link}
+          to="/"
+          onClick={(e) => {
+            if (window.location.pathname === '/') {
+              e.preventDefault();
+              scrollToTop();
+            }
+          }}
+        >
           <ListItemText primary="Inicio" />
         </ListItem>
         <ListItem button component={Link} to="/catalogo">
@@ -61,6 +71,14 @@ const Navbar = () => {
       </List>
     </Box>
   );
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+  
 
   return (
     <AppBar
@@ -77,7 +95,18 @@ const Navbar = () => {
           Mi Restaurante
         </Typography>
         <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-          <Button color="inherit" component={Link} to="/">Inicio</Button>
+          <Button 
+            color="inherit" 
+            component={Link} 
+            to="/"
+            onClick={(e) => {
+              if (window.location.pathname === '/') {
+                e.preventDefault();
+                scrollToTop();
+              }
+            }}>
+              Inicio
+          </Button>
           <Button color="inherit" component={Link} to="/catalogo">Catálogo</Button>
           <Button color="inherit" component={Link} to="/contacto">Contacto</Button>
         </Box>

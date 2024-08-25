@@ -35,7 +35,6 @@ const ProductCatalog = () => {
     };
     
     fetchData();
-    console.log(productos)
   }, []);
 
   return (
@@ -93,8 +92,8 @@ const ProductCatalog = () => {
                   </Typography>
 
                   <Box sx={{ marginTop: '10px' }}>
-                    {product.vegan && <Chip label="Vegan" color="primary" sx={{ marginRight: '5px' }} />}
-                    {product.vegetarian && <Chip label="Vegetarian" color="success" />}
+                    {product.vegan && <Chip label="Vegano" color="primary" sx={{ marginRight: '5px' }} />}
+                    {product.vegetarian && <Chip label="Vegetariano" color="success" />}
                   </Box>
                 </CardContent>
               </Card>
